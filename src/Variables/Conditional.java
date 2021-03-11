@@ -27,6 +27,8 @@ public class Conditional {
 //		score(isHandSome);
 //		int score = 80;
 //		switchCase(score);
+		
+		/* Lab6-7-8
 		System.out.println("\nForLoop 1-10 ");
 		for(int counter = 0; counter <= 10; counter++) {	
 			System.out.println("Counter: "+ counter);
@@ -71,6 +73,23 @@ public class Conditional {
 				System.out.println("break");
 				break;
 			}
+		}*/
+		
+		// Lab 9-10
+		System.out.println("\nLab9: Continue and For");
+		for(int i = 0; i <= 20; i++) {
+			if(i == 11) {
+				System.out.println("Counter : "+ i);
+				continue;
+			}
+			System.out.println("Hello");
+		}
+		System.out.println("\nLab10");
+		for(int i = 0; i <= 10; i++) {
+			if(i == 2) {	
+				continue;
+			}
+			System.out.println("Counter : "+ i);
 		}
 	}
 	
