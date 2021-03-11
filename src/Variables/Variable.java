@@ -56,8 +56,8 @@ public class Variable {
 		
 		final String hello = "Hello";
 		System.out.println("finalInt value: "+ hello);
-		hello = "20";
-		System.out.println("finalInt value: "+ hello);
+		/*hello = "20";
+		System.out.println("finalInt value: "+ hello);*/
 	}
 	public static void bark(){
 		String dogName = "JOJO"; // local variable
