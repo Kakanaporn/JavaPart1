@@ -2,7 +2,7 @@ package Variables;
 
 public class Conditional {
 	public static void main( String [] args) {
-		int i = 20;
+		/*int i = 20;
 		i++;
 		i++;
 		i++;
@@ -22,6 +22,23 @@ public class Conditional {
 		char char1 = 'S';
 		char char2 = 'D';
 		if(( char1 == 'D') || ( char2 == 'D'))
-		System.out.println("value value1 is 'D' OR value value2 is 'D'");
+		System.out.println("value value1 is 'D' OR value value2 is 'D'");*/
+		boolean isHandSome = true;
+		score(isHandSome);
+	}
+	
+	public static void score(boolean isHandSome) {
+		int marks = 50;
+		if (isHandSome == true) {
+		System.out.println("Good");
+		} else if (marks < 50) {
+		System.out.println("fail");
+		} else if (marks >= 50) {
+		System.out.println("normal");
+		} else if (marks >= 70) {
+		System.out.println("normal");
+		} else if (marks >= 80) {
+		System.out.println("Good");
+		} 
 	}
 }
