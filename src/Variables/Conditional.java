@@ -25,8 +25,53 @@ public class Conditional {
 		System.out.println("value value1 is 'D' OR value value2 is 'D'");*/
 //		boolean isHandSome = true;
 //		score(isHandSome);
-		int score = 80;
-		switchCase(score);
+//		int score = 80;
+//		switchCase(score);
+		System.out.println("\nForLoop 1-10 ");
+		for(int counter = 0; counter <= 10; counter++) {	
+			System.out.println("Counter: "+ counter);
+		}
+		
+		
+		System.out.println("\nSumerize 1-10 ");
+		int sum = 0;
+		for(int counter = 0; counter <= 10; counter++) {	
+			sum += counter;
+		}
+		System.out.println("Sum = "+ sum);
+		
+		System.out.println("\nMod by 12: ");
+		for (int i=1; i<100; i++) {
+			if (i%12==0) System.out.print(i +", ");			
+		}
+		System.out.println("\nForEach array[]");
+		int myArray[] = { 1,2,3,4,5};
+		for(int counter :myArray) {
+			System.out.println("CounterArray :"+counter);
+		}
+		
+		System.out.println("\nCountDown form 20 ");
+		int counter = 20;
+		do{
+		System.out.println("Counter :"+ counter--);
+		} while (counter >= 0 );
+		
+		System.out.println("\nCheck Even-Odd nuber");
+		int num = 20;
+		do{
+			System.out.println("Counter : Even number" );
+			counter--;		
+		} while (num%2 != 0);
+		System.out.println("Counter : Odd number" );
+		
+		System.out.println("\nBreak and For");
+		for(int i = 0; i <= 20; i++) {
+			if(i == 11) {
+				System.out.println("Counter : "+ i);
+				System.out.println("break");
+				break;
+			}
+		}
 	}
 	
 	public static void score(boolean isHandSome) {
