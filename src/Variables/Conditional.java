@@ -23,8 +23,10 @@ public class Conditional {
 		char char2 = 'D';
 		if(( char1 == 'D') || ( char2 == 'D'))
 		System.out.println("value value1 is 'D' OR value value2 is 'D'");*/
-		boolean isHandSome = true;
-		score(isHandSome);
+//		boolean isHandSome = true;
+//		score(isHandSome);
+		int score = 80;
+		switchCase(score);
 	}
 	
 	public static void score(boolean isHandSome) {
@@ -41,4 +43,28 @@ public class Conditional {
 		System.out.println("Good");
 		} 
 	}
+	
+	public static void switchCase(int number) {
+
+		switch(number) {
+		case 80:
+		System.out.println("A"); 
+		break;
+		case 70:
+		System.out.println("B"); 
+		break;
+		case 60:
+		System.out.println("C"); 
+		break;
+		case 50:
+		System.out.println("D"); 
+		break;
+		case 40:
+		System.out.println("F"); 
+		break;
+		default:
+		System.out.println("E");
+		}
+	}
 }
+
